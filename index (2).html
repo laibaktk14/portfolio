@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laiba Javed | Magical Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <i class="fas fa-code"></i>
+            Laiba Javed
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">👩‍💻 About</a></li>
+            <li><a href="#skills">⚡ Skills</a></li>
+            <li><a href="#projects">📁 Projects</a></li>
+            <li><a href="#contact">📞 Contact</a></li>
+        </ul>
+        <div class="menu-icon">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <div class="floating-badge">✨ Optimus Automate Intern ✨</div>
+            <h1>
+                <span class="greeting">Hi, I'm</span>
+                <span class="glowing-text">Laiba Javed</span>
+            </h1>
+            <p class="typing-text">Computer Science Student | Front-End Developer</p>
+            <div class="hero-subtitle">
+                <span>🎓 COMSATS University</span>
+                <span>📍 Attock, Pakistan</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn neon-btn">💬 Hire Me</a>
+                <a href="#projects" class="btn outline-btn">📂 View Work</a>
+                <a href="#" class="btn outline-btn" id="resumeBtn">📄 Download Resume</a>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down bouncing"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">
+            <i class="fas fa-user-astronaut"></i>
+            About Me
+        </h2>
+        <div class="about-content">
+            <div class="about-card glass-card">
+                <div class="about-text">
+                    <p>I'm a passionate <strong>Computer Science student</strong> currently interning at <strong class="gradient-text">Optimus Automate</strong>. I love building responsive websites and solving real-world problems through code.</p>
+                    <p>Based in <strong>Attock</strong>, I'm constantly learning new technologies and improving my skills as a front-end developer.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <span class="detail-label">University</span>
+                                    <span class="detail-value">COMSATS University Islamabad</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <span class="detail-label">Program</span>
+                                    <span class="detail-value">BS Computer Science</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-calendar-check"></i>
+                                <div>
+                                    <span class="detail-label">Current Semester</span>
+                                    <span class="detail-value">6th Semester</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bullseye"></i>
+                                <div>
+                                    <span class="detail-label">Career Goal</span>
+                                    <span class="detail-value">Full-Stack Web Developer</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <span class="detail-label">Experience</span>
+                                    <span class="detail-value">1 Year (Projects + Internship)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-globe"></i>
+                                <div>
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Attock, Punjab, Pakistan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Attock, Pakistan</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>laibajaved19@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>0344 6676119</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Student | Front-End Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">
+            <i class="fas fa-crown"></i>
+            Technical Skills
+        </h2>
+        <p class="section-subtitle">Technologies I work with and my proficiency level</p>
+        <div class="skills-container">
+            <div class="skill-card-3d">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <h3>HTML5</h3>
+                <p class="skill-desc">Semantic markup, SEO-friendly structure</p>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90%"></div>
+                </div>
+                <span class="percentage">90%</span>
+            </div>
+            <div class="skill-card-3d">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <h3>CSS3</h3>
+                <p class="skill-desc">Flexbox, Grid, Animations, Responsive</p>
+                <div class="progress-bar">
+                    <div class="progress" data-width="85%"></div>
+                </div>
+                <span class="percentage">85%</span>
+            </div>
+            <div class="skill-card-3d">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <h3>JavaScript</h3>
+                <p class="skill-desc">ES6, DOM Manipulation, Fetch API</p>
+                <div class="progress-bar">
+                    <div class="progress" data-width="75%"></div>
+                </div>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="skill-card-3d">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3>C++</h3>
+                <p class="skill-desc">OOP, Data Structures, Algorithms</p>
+                <div class="progress-bar">
+                    <div class="progress" data-width="80%"></div>
+                </div>
+                <span class="percentage">80%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">
+            <i class="fas fa-rocket"></i>
+            My Projects
+        </h2>
+        <p class="section-subtitle">Here are some projects I've built during my learning journey</p>
+        <div class="projects-container">
+
+            <!-- Project 1: Calculator -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3>🧮 Calculator</h3>
+                <p>Fully functional calculator with basic arithmetic operations: addition, subtraction, multiplication, division. Clean and responsive design.</p>
+                <div class="tech-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link demo-btn" onclick="openCalculator(event)"><i class="fas fa-play"></i> Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- Project 2: Music Player -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3>🎵 Music Player</h3>
+                <p>Beautiful music player with play/pause, next/previous, volume control, and progress bar. Modern UI with smooth animations.</p>
+                <div class="tech-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link demo-btn" onclick="openMusicPlayer(event)"><i class="fas fa-play"></i> Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- Project 3: Full Omni Market -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-store"></i>
+                </div>
+                <h3>Full Omni Market</h3>
+                <p>Complete e-commerce marketplace with product listing, cart functionality, and user-friendly interface. Built with modern web technologies.</p>
+                <div class="tech-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link demo-btn" onclick="openMarket(event)"><i class="fas fa-play"></i> Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- Project 4: Quiz Web -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <h3>Quiz Web</h3>
+                <p>Interactive quiz application with multiple categories, timer per question, and instant score calculation. Fun and engaging for users.</p>
+                <div class="tech-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link demo-btn" onclick="openQuiz(event)"><i class="fas fa-play"></i> Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- Project 5: Weather Web -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <h3>Weather Web</h3>
+                <p>Real-time weather dashboard showing temperature, humidity, wind speed, and 5-day forecast using public weather API integration.</p>
+                <div class="tech-tags">
+                    <span>API</span>
+                    <span>JavaScript</span>
+                    <span>CSS3</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link demo-btn" onclick="openWeather(event)"><i class="fas fa-play"></i> Demo</a>
+                    <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">
+            <i class="fas fa-paper-plane"></i>
+            Get In Touch
+        </h2>
+        <p class="section-subtitle">Have a question or want to work together? Let's connect!</p>
+        <div class="contact-container">
+            <div class="contact-info glass-card">
+                <div class="contact-item">
+                    <div class="icon-box">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>laibajaved19@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>0344 6676119</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Attock, Pakistan</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div>
+                        <h4>Working Hours</h4>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p style="font-size:12px; color:rgba(255,255,255,0.5);">Response within 24 hours</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon-box">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>+92 344 6676119</p>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form" class="glass-card">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Your Full Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-tag"></i>
+                    <input type="text" placeholder="Subject (e.g., Project Inquiry)">
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-pencil-alt"></i>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="neon-btn">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+                <p class="form-note">✉️ I'll get back to you within 24 hours</p>
+            </form>
+        </div>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+    <!-- ===== CALCULATOR MODAL ===== -->
+    <div class="modal-overlay" id="calculatorModal">
+        <div class="modal-box">
+            <button class="modal-close-btn" onclick="closeCalculator()">&times;</button>
+            <h2 class="modal-title">🧮 Calculator</h2>
+            <div class="calculator">
+                <div class="calc-display" id="calcDisplay">0</div>
+                <div class="calc-buttons">
+                    <button class="calc-btn" onclick="calcClear()">C</button>
+                    <button class="calc-btn" onclick="calcDelete()">⌫</button>
+                    <button class="calc-btn" onclick="calcOperator('%')">%</button>
+                    <button class="calc-btn operator" onclick="calcOperator('/')">÷</button>
+                    
+                    <button class="calc-btn" onclick="calcNumber('7')">7</button>
+                    <button class="calc-btn" onclick="calcNumber('8')">8</button>
+                    <button class="calc-btn" onclick="calcNumber('9')">9</button>
+                    <button class="calc-btn operator" onclick="calcOperator('*')">×</button>
+                    
+                    <button class="calc-btn" onclick="calcNumber('4')">4</button>
+                    <button class="calc-btn" onclick="calcNumber('5')">5</button>
+                    <button class="calc-btn" onclick="calcNumber('6')">6</button>
+                    <button class="calc-btn operator" onclick="calcOperator('-')">−</button>
+                    
+                    <button class="calc-btn" onclick="calcNumber('1')">1</button>
+                    <button class="calc-btn" onclick="calcNumber('2')">2</button>
+                    <button class="calc-btn" onclick="calcNumber('3')">3</button>
+                    <button class="calc-btn operator" onclick="calcOperator('+')">+</button>
+                    
+                    <button class="calc-btn" onclick="calcNumber('0')">0</button>
+                    <button class="calc-btn" onclick="calcNumber('.')">.</button>
+                    <button class="calc-btn equals" onclick="calcResult()">=</button>
+                    <button class="calc-btn operator" onclick="calcOperator('+')" style="visibility:hidden;"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MUSIC PLAYER MODAL ===== -->
+    <div class="modal-overlay" id="musicModal">
+        <div class="modal-box music-player-modal">
+            <button class="modal-close-btn" onclick="closeMusicPlayer()">&times;</button>
+            <h2 class="modal-title">🎵 Music Player</h2>
+            <div class="music-player">
+                <div class="music-cover" id="musicCover">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h3 class="music-title" id="musicTitle">Laiba's Playlist</h3>
+                <p class="music-artist" id="musicArtist">Your Favorite Tunes</p>
+                
+                <div class="music-progress">
+                    <div class="music-progress-bar" id="musicProgressBar">
+                        <div class="music-progress-fill" id="musicProgressFill"></div>
+                    </div>
+                    <div class="music-time">
+                        <span id="musicCurrentTime">0:00</span>
+                        <span id="musicDuration">3:30</span>
+                    </div>
+                </div>
+                
+                <div class="music-controls">
+                    <button class="music-btn" onclick="musicPrev()"><i class="fas fa-step-backward"></i></button>
+                    <button class="music-btn play-btn" id="playBtn" onclick="musicToggle()">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button class="music-btn" onclick="musicNext()"><i class="fas fa-step-forward"></i></button>
+                </div>
+                
+                <div class="music-volume">
+                    <i class="fas fa-volume-down"></i>
+                    <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="70">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3><i class="fas fa-crown"></i> Laiba Javed</h3>
+                <p>Computer Science Student | Front-End Developer</p>
+                <p class="footer-email">📧 laibajaved19@gmail.com</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Laiba Javed | ✨ Made with <i class="fas fa-heart"></i> for Optimus Automate ✨</p>
+            <p class="footer-credit">🚀 Built from scratch with passion and dedication</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
