@@ -1,29 +1,6 @@
 # ✨ Laiba Javed | Magical Portfolio
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/0f0c29/667eea?text=Laiba+Javed+Portfolio)
-
 > A magical, interactive portfolio website showcasing my skills, projects, and experience as a Computer Science student and Front-End Developer.
-
-## 🌟 Live Demo
-
-[🔗 View Live Portfolio](#) *(Add your portfolio URL here)*
-
----
-
-## 📋 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Projects Included](#projects-included)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
 
 ## 📖 About
 
