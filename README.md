@@ -57,6 +57,3 @@ The portfolio features a magical dark theme with interactive elements, smooth an
 - Web Audio API (for music player)
 - Canvas API (for particle effects)
 
----
-
-## 📁 Project Structure
